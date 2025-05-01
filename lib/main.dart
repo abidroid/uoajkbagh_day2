@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uoajkbagh_day2/screens/card_demo_screen.dart';
 import 'package:uoajkbagh_day2/screens/container_demo_screen.dart';
 import 'package:uoajkbagh_day2/screens/first_screen.dart';
 import 'package:uoajkbagh_day2/screens/image_demo_screen.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const ImageDemoScreen(), // launcher screen
+      home: const CardDemoScreen(), // launcher screen
     );
   }
 }
