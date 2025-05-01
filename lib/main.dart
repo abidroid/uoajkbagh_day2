@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uoajkbagh_day2/screens/container_demo_screen.dart';
 import 'package:uoajkbagh_day2/screens/first_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const FirstScreen(),
+      home: const ContainerDemoScreen(), // launcher screen
     );
   }
 }
